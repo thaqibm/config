@@ -1,0 +1,76 @@
+window:
+  # Window dimensions in character columns and lines
+  # Falls back to size specified by window manager if set to 0x0.
+  # (changes require restart)
+  dimensions:
+    columns: 150
+    lines: 50
+ 
+  # Adds this many blank pixels of padding around the window
+  # Units are physical pixels; this is not DPI aware.
+  # (change requires restart)
+  padding:
+    x: 10
+    y: 10
+  position:
+    x: 100
+    y: 100
+
+ 
+  # Window decorations
+  # Setting this to false will result in window without borders and title bar.
+  #decorations: 'None'
+
+  
+# When true, bold text is drawn using the bright variant of colors.
+draw_bold_text_with_bright_colors: true
+
+
+background_opacity: 0.965
+
+shell: 
+    program: bash
+
+working_directory: C:\Users\thaqi
+
+
+
+
+
+
+
+#style: Block/Underline/Beam
+cursor:
+  style: Block
+  
+vi_mode_cursor:
+  text: CellBackground
+  cursor: CellForeground
+  
+colors:
+  # Default colors
+  primary:
+    background: '#272822'
+    foreground: '#F8F8F2'
+
+  # Normal colors
+  normal:
+   black:   '#272822'
+   red:     '#F92672'
+   green:   '#A6E22E'
+   yellow:  '#F4BF75'
+   blue:    '#66D9EF'
+   magenta: '#AE81FF'
+   cyan:    '#A1EFE4'
+   white:   '#F8F8F2'
+
+  # Bright colors
+  bright:
+   black:   '#75715E'
+   red:     '#F92672'
+   green:   '#A6E22E'
+   yellow:  '#F4BF75'
+   blue:    '#66D9EF'
+   magenta: '#AE81FF'
+   cyan:    '#A1EFE4'
+   white:   '#F9F8F5'
